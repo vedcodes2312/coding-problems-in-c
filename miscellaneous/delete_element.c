@@ -55,7 +55,7 @@ int main()
 
         //Array after deletion
         printf("\nArray after deletion:\n");
-        /*n-1 to be in the range of size  of array, if we use n  then it will be out of range 
+        /* n-1 to be in the range of size  of array, if we use n  then it will be out of range 
         and may lead to runtime error in ouput */
 
         for (int i = 0; i < n; i++) 
