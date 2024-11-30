@@ -5,7 +5,7 @@ coefficient of correlation =        n∑xy − ∑x∑y
                                √[(n∑x² − (∑x)²][n∑y²− (∑y)²]
 
 in order having readings(number of observations) more than 5 or less than 5, just change the value 
-with #define preprocessor before main function(SIZE),it will impact changes in the program accordingly(line 9)
+with #define preprocessor before main function(SIZE),it will impact changes in the program accordingly(line 17)
 eg:   x | 1 | 5 | 9               so we have 3 readings/observations,SIZE = 3
       y | 2 | 6 | 10
       Arrays are used in the code,assume observations of x as a column/row matrix(one dimensional),same for y
