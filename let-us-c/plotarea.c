@@ -27,10 +27,10 @@ int main()   //body of the code
  //printing all areas
  for(int i=0; i<SIZE; i++)
  {
-    printf("Area of plot %d is %.2f\n",i+1,area[i]);
+    printf("Area of plot %d is %.2lf\n",i+1,area[i]);
  }
  //printing largest area
- printf("Largest area is %.2f of plot %d\n",area[largestarea],largestarea+1);
+ printf("Largest area is %.2lf of plot %d\n",area[largestarea],largestarea+1);
 
 return 0;
 
