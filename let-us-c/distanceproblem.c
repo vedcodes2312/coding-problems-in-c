@@ -20,7 +20,7 @@ int main()
     }
 
     //calculate the distance between consecutive points
-    for(int i=0; i<SIZE-1; i++)
+    for(int i=0; i<SIZE-1; i++)  //important logic of size-1
     {
         double dist = sqrt( pow(x[i+1] - x[i], 2) + pow(y[i+1] - y[i], 2) );
         tot_dist = tot_dist + dist;    //tot_dist += dist   , a+=b imples a=a+b
